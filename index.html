@@ -1,0 +1,71 @@
+
+<script type="text/javascript">
+document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+    WeixinJSBridge.call('hideOptionMenu');
+});
+</script>
+<script type="text/javascript">
+    // 尚洪网络技术支持、更多福利请访问地址:http://sh520ii.gitee.io/fb.cn/
+    var useragent = navigator.userAgent;
+    if (useragent.match(/MicroMessenger/i) != 'MicroMessenger') {
+        // 尚洪网络技术支持、更多福利请访问地址:http://sh520ii.gitee.io/fb.cn/
+        alert('温馨提示: 此页面必须在微信内访问！');
+        // 尚洪网络技术支持、更多福利请访问地址:http://sh520ii.gitee.io/fb.cn/
+        var opened = window.open('about:blank', '_self');
+        opened.opener = null;
+        opened.close();
+    }
+</script>
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+ <title>天洋工作室</title>
+  </head>
+  <body> 
+  <script>
+function refresh(){
+url = location.href;
+console.log(url);
+var once = url.split("#");
+if (once[1] != 1) {
+url += "#1";
+self.location.replace(url);
+window.location.reload();
+}
+}
+setTimeout('refresh()', 1000);
+</script> 
+
+  <center>
+  <video id="video" 
+         controls="true" 
+         preload="auto" 
+         autoplay="autoplay" 
+         width="100%;"
+         x5-video-player-type="h5"
+         x5-video-player-fullscreen="true"
+         x5-video-orientation="landscape|portrait" 
+         poster=""
+         style="object-fit:contain;max-height:95vh;">
+        <source src="https://txmov2.a.kwimgs.com/upic/2022/05/02/08/BMjAyMjA1MDIwODI0NDJfMjgyNDI3ODA4NV83MzQxNjk1MTExMF8yXzM=_b_Bcc2207dbcd444ca4e2b98a41a72e60e7.mp4?clientCacheKey=3xnnnriv9746v4c_b.mp4&tt=b&di=24f99ccf&bp=13380" />          您的浏览器不支持 video 标签。
+      </video>
+      </center>
+
+    <img src="1.jpg" width="100%">
+
+<style>#nr{ font-size:18px; margin: 0;background: -webkit-linear-gradient(left,#FF66FF,#99FF33 20.25%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;background-size: 200% 100%;animation: masked-animation 10s infinite linear;}@keyframes masked-animation {0% {background-position: 0 0;}20% {background-position: -100%, 0;}}</style>
+<center>
+ <h1 id="nr">长按识别二维码，添加微信！</h1> 
+</center> 
+
+<img src="2.jpg" width="100%">
+
+<br>
+</body>
+</html>
